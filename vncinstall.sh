@@ -49,7 +49,6 @@ sudo chmod 0755 /etc/init.d/tightvnc
 sudo update-rc.d tightvnc defaults
 sudo service tightvnc stop
 sudo service tightvnc start
-sudo apt update
-sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
 sudo apt install ubuntu-desktop -y
-reboot
